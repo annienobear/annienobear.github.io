@@ -1,13 +1,13 @@
 menu:
 - {name: 'publications', url: '/publications'}
-- {name: 'cats', url: '/people'}
+- {name: 'cats', url: '/cats'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
 cats:
-- {name: 'Talon', title: 'Domestic SH', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {name: 'Lulu', title: 'Minute', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Kennen', title: 'Minute', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+- {name: 'Talon', title: 'Domestic SH', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/talon.jpg', url: 'primary-investigator'}
+- {name: 'Lulu', title: 'Minute', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lulu.jpg', url: 'lab-technician'}
+- {name: 'Kennen', title: 'Minute', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/kennen.jpg', url: 'graduate-student'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
@@ -15,10 +15,10 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'github', link: 'https://github.com/annienobear'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
 - {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/hailun-shirley-zhang-b2512112a/'}
 
 contacts:
 - {name: 'Hailun (Shirley) Zhang', title: 'Student', department: 'Computer Science', institution: 'University of Michigan', institution_address: 'Ann Arbor, Michigan', phone: '2066696714', email: 'hailunzh@umich.edu', image: 'assets/img/contact.jpg'}
