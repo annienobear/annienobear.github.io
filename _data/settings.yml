@@ -6,8 +6,8 @@ menu:
 
 cats:
 - {name: 'Talon', title: 'Domestic SH', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: 'I met Talon in Jan, 2019. He was a shelter cat and was adopted by our friends. ', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/talon.jpg', url: 'primary-investigator'}
-- {name: 'Lulu', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lulu.jpg', url: 'lab-technician'}
-- {name: 'Kennen', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/kennen.jpg', url: 'graduate-student'}
+- {name: 'Lulu', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lulu.jpg', url: 'lab-technician'}
+- {name: 'Kennen', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/kennen.jpg', url: 'graduate-student'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
