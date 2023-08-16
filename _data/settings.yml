@@ -6,7 +6,7 @@ menu:
 
 cats:
 - {name: 'Talon', title: 'Domestic SH', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: 'I met Talon in Jan, 2019. He was a shelter cat and was adopted by our friends. ', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/talon.jpg', url: 'primary-investigator'}
-- {name: 'Lulu', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lulu.jpg', url: 'lab-technician'}
+- {name: 'Lulu', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: 'Lulu came from San Diego, CA. I picked her up at SD airport ~ I'm glad to share the experience of picking up a cat from other states!', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lulu.jpg', url: 'lab-technician'}
 - {name: 'Kennen', title: 'Minuet', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: 'Kennen is from a local family close to the boundry of MI and IN, he got his feet sprain while playing with other cats on the day coming to my place.', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/kennen.jpg', url: 'graduate-student'}
 
 courses:
