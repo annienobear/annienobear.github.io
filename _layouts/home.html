@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <div class="row g-5 mb-5">
+      <h3 class="fw-bold">Introduction</h3>
+      {{ content }}
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-12">
+        <h3 class="fw-bold">Interest</h3>
+        <ul>
+          <li>Privacy</li>
+          <li>Network</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 index-photo" style="
+  display: flex;
+  align-items: center;
+  justify-content: center;
+">
+    <img src="{{ site.github.url }}/assets/img/shirl.PNG" alt="Home" width="50%"  class="round-shape" >
+  </div>
+</div>
+
+
+{% include publications.html %}
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+    {% for post in site.posts %}
+      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,28 @@
+menu:
+- {name: 'home', url: '/'}
+- {name: 'cats', url: '/cats'}
+- {name: 'notes', url: '/notes'}
+- {name: 'cv', url: '/cv'}
+- {name: 'contact', url: '/contact'}
+
+cats:
+- {name: 'Talon', title: 'Domestic SH', info: 'I met Talon in Jan, 2019. He was a shelter cat and was adopted by our friends. ', email: 'hello@university.edu', image: 'assets/img/talon.jpg', url: 'Talon.html', more: 'assets/img/talon'}
+- {name: 'Lulu', title: 'Minuet', info: 'Lulu came from SD, and I am glad to share experience of picking up cats from other states.', email: 'hello@university.edu', image: 'assets/img/lulu.jpg', url: 'Lulu.html', more: 'assets/img/lulu'}
+- {name: 'Kennen', title: 'Minuet', info: 'Kennen is from a local family close to the boundry of MI and IN, he got his feet sprain while playing with other cats on the day coming to my place.',  image: 'assets/img/kennen.jpg', url: 'Kennen.html', more: 'assets/img/kennen'}
+
+courses:
+- {name: 'EECS370 - Architecture Intro', url: 'architecture.pdf'}
+- {name: 'EECS388 - Security', url: 'security.pdf'}
+- {name: 'EECS490 - Programming language', url: 'pl.pdf'}
+- {name: 'EECS489 - Network', url: 'network.pdf'}
+- {name: 'CS520 - Theory', url: 'theory.pdf'}
+- {name: 'CS 532 - Matrix in Machine Learning', url: 'ml.pdf'}
+
+social:
+- {icon: 'github', link: 'https://github.com/annienobear'}
+- {icon: 'twitter', link: 'https://twitter.com/shirley43053'}
+- {icon: 'instagram', link: 'https://www.instagram.com/shirleyzhang0613'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/hailun-shirley-zhang-b2512112a/'}
+
+contacts:
+- {name: 'Hailun (Shirley) Zhang', title: 'Student', department: 'Computer Science', institution: 'University of Wisconsin', institution_address: 'Madison, Wisconsin', phone: '2066696714', email: 'hzhang664@wisc(dot)edu', image: 'assets/img/contact.jpg'}
