@@ -11,6 +11,7 @@ cats:
 - {name: 'Kennen', title: 'Minuet', info: 'Kennen is from a local family close to the boundry of MI and IN, he got his feet sprain while playing with other cats on the day coming to my place.',  image: 'assets/img/kennen.jpg', url: 'Kennen.html', more: 'assets/img/kennen'}
 
 courses:
+- {name: 'PSYCH290 - Personality Psychology', url: 'personality.pdf'}
 - {name: 'EECS370 - Architecture Intro', url: 'architecture.pdf'}
 - {name: 'EECS388 - Security', url: 'security.pdf'}
 - {name: 'EECS490 - Programming language', url: 'pl.pdf'}
