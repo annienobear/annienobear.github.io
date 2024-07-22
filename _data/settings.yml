@@ -19,7 +19,7 @@ courses:
 - {name: 'CS 532 - Matrix in Machine Learning', url: 'ml.pdf'}
 
 projects:
-- {name: 'Shortcuts XML doc', url: 'shortcuts.md'}
+- {name: 'Shortcuts XML doc', url: 'shortcut.md'}
 
 social:
 - {icon: 'github', link: 'https://github.com/annienobear'}
