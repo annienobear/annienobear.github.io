@@ -18,6 +18,9 @@ courses:
 - {name: 'CS520 - Theory', url: 'theory.pdf'}
 - {name: 'CS 532 - Matrix in Machine Learning', url: 'ml.pdf'}
 
+projects:
+- {name: 'Shortcuts XML doc', url: 'shortcuts.md'}
+
 social:
 - {icon: 'github', link: 'https://github.com/annienobear'}
 - {icon: 'twitter', link: 'https://twitter.com/shirley43053'}
