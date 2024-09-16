@@ -163,3 +163,17 @@ Inner structure of this key:
 
 ## Actions
 
+Common format of actions: each action is a ``<dict>``
+
+```xml
+<dict>
+  <key>WFWorkflowActionIdentifier</key>
+  <string>is.workflow.actions.name</string> <!-- action name -->
+  <key>WFWorkflowActionParameters</key>
+  <dict>
+    <!-- parameters -->
+  </dict>
+</dict>
+```
+
+`is.workflow.actions.dictionary`: A diction form. 
