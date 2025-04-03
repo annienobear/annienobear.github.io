@@ -1,7 +1,8 @@
 featured:
-# - {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-# - {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-# - {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
+- {name: "Zhang, S., Li, J., Cagiltay, B., Kirkorian, H., Mutlu, B., & Fawaz, K. (2025). A qualitative exploration of parents and their children's uses and gratifications of ChatGPT. Family Relations.", url: 'https://onlinelibrary.wiley.com/doi/epdf/10.1111/fare.13171'}
+- {name: 'West, J., Cagiltay, B., Zhang, S., Li, J., Fawaz, K., & Banerjee, S. (2025). " Impressively Scary:" Exploring User Perceptions and Reactions to Unraveling Machine Learning Models in Social Media Applications. arXiv preprint arXiv:2503.03927.', url: 'https://arxiv.org/abs/2503.03927v1'}
+- {name: 'Nayak, A., Zhang, S., Wani, Y., Khandelwal, R., & Fawaz, K. (2024). Automatically Detecting Online Deceptive Patterns in Real-time. arXiv preprint arXiv:2411.07441.', url: 'https://arxiv.org/abs/2411.07441'}
+- {name: 'Shibo, C., Zhang, H., & Todd, A. (2025, January). Zipper: Latency-Tolerant Optimizations for High-Performance Buses. In Proceedings of the To Appear in The Asia and South Pacific Design Automation Conference, Tokyo, Japan (pp. 20-23).', url: 'https://web.eecs.umich.edu/~chshibo/publication/chen-zipper-2025/chen-zipper-2025.pdf'}
 
 # index:
 - {name: "Li, J., Cagiltay, B., Zhang, S., Sullivan, D., Kirkorian, H., Mutlu, B., & Fawaz, K. (2025, July). Exploring Differences Between Parents' Perceptions and Mediation of ChatGPT and Social Media. [Poster Presentation]. Digital Media and Developing Minds International Scientific Congress, Washington, D.C", url: ''}

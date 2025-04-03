@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Website published"
+title: "Qualification Exam"
 ---
 
 =v=
