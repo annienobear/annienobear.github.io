@@ -1,0 +1,48 @@
+publications:
+  - title: "A Qualitative Exploration of Parents and Their Children's Uses and Gratifications of ChatGPT"
+    authors: ["Shirley Zhang", "Jennica Li", "Bengisu Cagiltay", "Heather Kirkorian", "Bilge, Mutlu", "Kassem Fawaz"]
+    venue: "Family Relations."
+    year: 2025
+    description: "This Emerging Ideas report explores families’ (parents and their children) uses and gratification for ChatGPT."
+    links:
+      paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/fare.13171"
+#      code: "https://github.com/example/repo"
+#      slides: "https://example.com/slides.pdf"
+
+  - title: "'Impressively Scary': Exploring User Perceptions and Reactions to Unraveling Machine Learning Models in Social Media Applications"
+    authors: [ "Jack West", "Bengisu Cagiltay", "Shirley Zhang",  "Jingjie Li",  "Kassem Fawaz", "Suman Banerjee" ]
+    venue: "CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems"
+    year: 2025
+    description: "We conducted user studies (N=21) and found that participants were unaware to both what the models output and when the models were used in Instagram and TikTok, two major social media platforms. In response to being exposed to the models’ functionality, we observed long term behavior changes in 8 participants. Our analysis uncovers the challenges and opportunities in providing transparency for machine learning models that interact with local user data."
+    links:
+      paper: "https://dl.acm.org/doi/10.1145/3706598.3713256"
+
+  - title: "Is Self-Governance Governance?: Evaluating the Consistency of Self-Governance Practices on AI in Social Media Applications"
+    authors: [ "Jack West","Shirley Zhang",  "Kassem Fawaz", "Suman Banerjee" ]
+    venue: "CHI '25 (Sociotechnical AI Governance: Opportunities and Challenges for HCI)"
+    year: 2025
+    description: "In this work, we compare the currently deployed models for both Instagram and TikTok to their public statements about internal AI governance practices to see if these models live up to their reported standards. We found that Instagram’s model may exhibit undesirable biases in concepts that their other internal models (eg, DINOv2) may lack. "
+    links:
+      paper: "https://chi-staig.github.io/papers/submission13.pdf"
+
+# ------------- POSTERS -------------
+  - title: "Exploring Differences Between Parents' Perceptions and Mediation of ChatGPT and Social Media. [Poster Presentation]"
+    authors: [ "Jennica Li", "Bengisu Cagiltay", "Shirley Zhang", "Dakota Sullivan", "Heather Kirkorian", "Bilge, Mutlu", "Kassem Fawaz"]
+    venue: "Digital Media and Developing Minds International Scientific Congress, Washington, D.C"
+    year: 2025
+#    description: "This Emerging Ideas report explores families’ (parents and their children) uses and gratification for ChatGPT."
+#    links:
+#      paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/fare.13171"
+
+# -------------- WORKSHOPS --------------
+
+
+
+  - title: "Zipper: Latency-Tolerant Optimizations for High-Performance Buses"
+    authors: ["Shibo Chen", "Shirley Zhang", "Todd Austin"]
+    venue: "In Proceedings of the To Appear in The Asia and South Pacific Design Automation Conference, Tokyo, Japan (pp. 20-23)."
+    year: 2024
+    description: "As heterogeneous designs take over the world of hardware designs, the data bus plays a vital role in interconnecting hosts and accelerators. While past works have emphasized increasing communication bandwidth for data-hungry workloads, this work focuses on optimizing latency for latency-sensitive acceleration applications."
+    links:
+      paper: "https://dl.acm.org/doi/10.1145/3658617.3697546"
+#      slides: "https://example.com/slides2.pdf"
