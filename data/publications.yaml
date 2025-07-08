@@ -1,4 +1,13 @@
 publications:
+  - title: "Abusability of Automation Apps in Intimate Partner Violence"
+    authors: [ "Shirley Zhang", "Paul Chung", "Jacob Vervelde", "Nishant Korapati", "Rahul Chatterjee", "Kassem Fawaz" ]
+    venue: "in Proceedings of the 2025 USENIX Security (Accepted)"
+    year: 2025
+    description: "This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. "
+    links:
+      paper: "/pdfs/sec25cycle2-final113 (3).pdf"
+
+
   - title: "A Qualitative Exploration of Parents and Their Children's Uses and Gratifications of ChatGPT"
     authors: ["Shirley Zhang", "Jennica Li", "Bengisu Cagiltay", "Heather Kirkorian", "Bilge, Mutlu", "Kassem Fawaz"]
     venue: "Family Relations."
