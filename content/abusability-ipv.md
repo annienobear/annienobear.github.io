@@ -30,8 +30,8 @@ Automation apps such as iOS Shortcuts and Android Tasker enable users to "progra
 ## Resources
 
 | Artifact          | Link / Status |
-| ----------------- | ------------- |
-| **Paper (PDF)**   | *coming soon* |
+| ----------------- |---------------|
+| **Paper (PDF)**   | *[link](/pdfs/sec25cycle2-final113 (3).pdf)*    |
 | **Code (GitHub)** | *coming soon* |
 | **Dataset**       | *coming soon* |
 | **Slides**        | *coming soon* |
