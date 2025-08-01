@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Shirley (Hailun) Zhang | 张海伦</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://annienobear.github.io/posts/</link>
     <description>Recent content in Posts on Shirley (Hailun) Zhang | 张海伦</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:29:38 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Thu, 26 Jun 2025 00:29:38 -0500</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://annienobear.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

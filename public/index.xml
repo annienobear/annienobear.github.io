@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shirley (Hailun) Zhang | 张海伦</title>
-    <link>http://localhost:1313/</link>
+    <link>https://annienobear.github.io/</link>
     <description>Recent content on Shirley (Hailun) Zhang | 张海伦</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:29:48 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://annienobear.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 26 Jun 2025 00:29:48 -0500</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Thu, 26 Jun 2025 00:29:38 -0500</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description></description>
+      <title>Abusability of Automation Apps in Intimate Partner Violence</title>
+      <link>https://annienobear.github.io/abusability-ipv/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://annienobear.github.io/abusability-ipv/</guid>
+      <description>&lt;h1 id=&#34;abusability-of-automation-apps-in-intimate-partner-violence&#34;&gt;Abusability of Automation Apps in Intimate Partner Violence&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Proceedings of &lt;!-- raw HTML omitted --&gt;, 2025.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR –&lt;/strong&gt; We show how seemingly benign automation services (e.g., smart-home routines, IFTTT, or voice-assistant skills) can be weaponized by abusers to surveil, control, and harass intimate partners, and we propose platform-level defenses.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Coming soon – a brief summary of the research contribution will appear here.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Artifact&lt;/th&gt;&#xA;          &lt;th&gt;Link / Status&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Paper (PDF)&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Code (GitHub)&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Dataset&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Poster&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Demo video&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;bibtex&#34;&gt;BibTeX&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bibtex&#34; data-lang=&#34;bibtex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;@inproceedings&lt;/span&gt;{nobear2025ipv,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;author&lt;/span&gt;    = &lt;span style=&#34;color:#e6db74&#34;&gt;{Annie N. O&amp;#39;Bear and Others}&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;     = &lt;span style=&#34;color:#e6db74&#34;&gt;{Abusability of Automation Apps in Intimate Partner Violence}&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;booktitle&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;{Proceedings of &amp;lt;Conference TBD&amp;gt;}&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;year&lt;/span&gt;      = &lt;span style=&#34;color:#e6db74&#34;&gt;{2025}&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt;       = &lt;span style=&#34;color:#e6db74&#34;&gt;{https://annienobear.com/abusability-ipv/}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;faq-placeholders&#34;&gt;FAQ (placeholders)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why focus on automation apps?&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
