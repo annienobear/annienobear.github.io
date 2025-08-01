@@ -5,7 +5,8 @@ publications:
     year: 2025
     description: "This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. "
     links:
-      paper: "/pdfs/sec25cycle2-final113 (3).pdf"
+      paper: "/abusability-ipv/"
+      pdf:  "/pdfs/sec25cycle2-final113 (3).pdf"
 
 
   - title: "A Qualitative Exploration of Parents and Their Children's Uses and Gratifications of ChatGPT"
