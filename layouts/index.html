@@ -63,12 +63,21 @@
                 <p>
                     <div class="date">{{ .year }}</div>
                     <h1>
-                        {{ if .links.paper }}
-                        <a href="{{ .links.paper }}" target="_blank" title="{{ .title }}">{{ .title }}</a>
-                        {{ else }}
-                        {{ .title }}
+                      {{/* Prefer .url, then links.project, then links.paper */}}
+                      {{ $href := .url }}
+                      {{ if not $href }}
+                        {{ with .links }}
+                          {{ $href = or (index . "project") (index . "paper") }}
                         {{ end }}
+                      {{ end }}
+
+                      {{ if $href }}
+                        <a href="{{ $href | safeURL }}" target="_blank" rel="noopener" title="{{ .title }}">{{ .title }}</a>
+                      {{ else }}
+                        {{ .title }}
+                      {{ end }}
                     </h1>
+
                     <div style="font-style: italic; color: #888; margin: 5px 0;">
                         {{ range $index, $author := .authors }}{{ if gt $index 0 }}, {{ end }}{{ if eq $author "Shirley Zhang" }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}
                     </div>

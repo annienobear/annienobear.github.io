@@ -1,11 +1,13 @@
 publications:
   - title: "Abusability of Automation Apps in Intimate Partner Violence"
+    url: "https://wiscprivacy.com/publication/abusability-ipv/"
     authors: [ "Shirley Zhang", "Paul Chung", "Jacob Vervelde", "Nishant Korapati", "Rahul Chatterjee", "Kassem Fawaz" ]
     venue: "in Proceedings of the 2025 USENIX Security (Accepted)"
     year: 2025
     description: "This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. "
     links:
 #      paper: "/abusability-ipv/"
+      project: "https://wiscprivacy.com/publication/abusability-ipv/"
       paper:  "/pdfs/Automate_in_IPV.pdf"
 
 
