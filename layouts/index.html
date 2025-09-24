@@ -28,6 +28,14 @@
 
     <meta name="twitter:title" content="{{ .Site.Title }}"/>
     <meta name="twitter:description" content="{{ .Site.Params.description | default "A personal site" }}"/>
+    <style>
+        .container { max-width: 1800px; }
+      .two-col { display: flex !important; gap: 32px; align-items: flex-start; }
+      .col-left, .col-right { flex: 1 1 0; min-width: 0; }
+      .col-left { max-width: 900px; }
+      @media (max-width: 700px) { .two-col { flex-direction: column; } }
+    </style>
+
 </head>
 <body class="terminal">
     <div class="container">
@@ -54,64 +62,166 @@
         </p>
         <br/>
 
-        <h1>Publications</h1>
+<!--        <h1>Publications</h1>-->
 
-        {{ if .Site.Data.publications.publications }}
-        <div class="posts-list">
-            {{ range .Site.Data.publications.publications }}
-            <div class="post">
-                <p>
-                    <div class="date">{{ .year }}</div>
-                    <h1>
-                      {{/* Prefer .url, then links.project, then links.paper */}}
-                      {{ $href := .url }}
-                      {{ if not $href }}
-                        {{ with .links }}
-                          {{ $href = or (index . "project") (index . "paper") }}
-                        {{ end }}
-                      {{ end }}
+<!--        {{ if .Site.Data.publications.publications }}-->
+<!--        <div class="posts-list">-->
+<!--            {{ range .Site.Data.publications.publications }}-->
+<!--            <div class="post">-->
+<!--                <p>-->
+<!--                    <div class="date">{{ .year }}</div>-->
+<!--                    <h1>-->
+<!--                      {{/* Prefer .url, then links.project, then links.paper */}}-->
+<!--                      {{ $href := .url }}-->
+<!--                      {{ if not $href }}-->
+<!--                        {{ with .links }}-->
+<!--                          {{ $href = or (index . "project") (index . "paper") }}-->
+<!--                        {{ end }}-->
+<!--                      {{ end }}-->
 
-                      {{ if $href }}
-                        <a href="{{ $href | safeURL }}" target="_blank" rel="noopener" title="{{ .title }}">{{ .title }}</a>
-                      {{ else }}
-                        {{ .title }}
-                      {{ end }}
-                    </h1>
+<!--                      {{ if $href }}-->
+<!--                        <a href="{{ $href | safeURL }}" target="_blank" rel="noopener" title="{{ .title }}">{{ .title }}</a>-->
+<!--                      {{ else }}-->
+<!--                        {{ .title }}-->
+<!--                      {{ end }}-->
+<!--                    </h1>-->
 
-                    <div style="font-style: italic; color: #888; margin: 5px 0;">
-                        {{ range $index, $author := .authors }}{{ if gt $index 0 }}, {{ end }}{{ if eq $author "Shirley Zhang" }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}
-                    </div>
-                    {{ if .venue }}<div style="color: #666; font-size: 0.9em; margin: 5px 0;">{{ .venue }}</div>{{ end }}
-                    {{ if .description }}<div style="margin: 10px 0;">{{ .description }}</div>{{ end }}
-                    {{ if .links }}
-                    <div style="margin: 10px 0;">
-                        {{ range $type, $url := .links }}
-                        <a href="{{ $url }}" target="_blank" style="margin-right: 15px;">[{{ upper $type }}]</a>
-                        {{ end }}
-                    </div>
-                    {{ end }}
-                </p>
-            </div>
-            {{ end }}
-        </div>
-        {{ else }}
-        <div class="posts-list">
-            <div class="post">
-                <p>No publications found. Make sure your data/publications.yaml file exists and is properly formatted.</p>
-            </div>
-        </div>
+<!--                    <div style="font-style: italic; color: #888; margin: 5px 0;">-->
+<!--                        {{ range $index, $author := .authors }}{{ if gt $index 0 }}, {{ end }}{{ if eq $author "Shirley Zhang" }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}-->
+<!--                    </div>-->
+<!--                    {{ if .venue }}<div style="color: #666; font-size: 0.9em; margin: 5px 0;">{{ .venue }}</div>{{ end }}-->
+<!--                    {{ if .description }}<div style="margin: 10px 0;">{{ .description }}</div>{{ end }}-->
+<!--                    {{ if .links }}-->
+<!--                    <div style="margin: 10px 0;">-->
+<!--                        {{ range $type, $url := .links }}-->
+<!--                        <a href="{{ $url }}" target="_blank" style="margin-right: 15px;">[{{ upper $type }}]</a>-->
+<!--                        {{ end }}-->
+<!--                    </div>-->
+<!--                    {{ end }}-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            {{ end }}-->
+<!--        </div>-->
+<!--        {{ else }}-->
+<!--        <div class="posts-list">-->
+<!--            <div class="post">-->
+<!--                <p>No publications found. Make sure your data/publications.yaml file exists and is properly formatted.</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        {{ end }}-->
+
+<!--        <h1>Latest posts</h1>-->
+<!--        <div class="posts-list">-->
+<!--            {{ range first 5 (where .Site.RegularPages "Type" "posts") }}-->
+<!--            <div class="post">-->
+<!--                <p>-->
+<!--                    <div class="date">{{ .Date.Format "Jan. 2, 2006" }}</div>-->
+<!--                    <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            {{ end }}-->
+<!--        </div>-->
+
+
+        {{/* Collect publications and compute Selected set */}}
+        {{ $pubs := .Site.Data.publications.publications }}
+        {{ $selected := where $pubs "selected" true }}
+        {{ if not (gt (len $selected) 0) }}
+          {{ $selected = first 6 $pubs }}
         {{ end }}
 
-        <h1>Latest posts</h1>
-        <div class="posts-list">
-            {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
-            <div class="post">
-                <p>
-                    <div class="date">{{ .Date.Format "Jan. 2, 2006" }}</div>
-                    <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                </p>
+        <div class="two-col">
+          <!-- LEFT: Selected Publications -->
+          <div class="col-left">
+            <h1>Selected Publications</h1>
+
+            {{ if $selected }}
+            <div class="posts-list">
+              {{ range $selected }}
+              <div class="post">
+                <div class="date">{{ .year }}</div>
+                <h3 class="pub-title">
+                  {{/* Prefer .url, then links.project, then links.paper */}}
+                  {{ $href := .url }}
+                  {{ if not $href }}
+                    {{ with .links }}
+                      {{ $href = or (index . "project") (index . "paper") }}
+                    {{ end }}
+                  {{ end }}
+                  {{ if $href }}
+                    <a href="{{ $href | safeURL }}" target="_blank" rel="noopener" title="{{ .title }}">{{ .title }}</a>
+                  {{ else }}
+                    {{ .title }}
+                  {{ end }}
+                </h3>
+
+                <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
+                  {{ range $i, $a := .authors }}{{ if gt $i 0 }}, {{ end }}{{ if eq $a "Shirley Zhang" }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end }}{{ end }}
+                </div>
+
+                {{ if .venue }}<div class="venue" style="color:#666; font-size:.9em; margin:4px 0;">{{ .venue }}</div>{{ end }}
+                {{ if .description }}<div class="desc" style="margin:8px 0;">{{ .description }}</div>{{ end }}
+
+                {{ if .links }}
+                  <div class="link-badges" style="margin:6px 0;">
+                    {{ range $type, $url := .links }}
+                      <a href="{{ $url | safeURL }}" target="_blank" rel="noopener" class="badge">[{{ upper $type }}]</a>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+              {{ end }}
             </div>
+            {{ else }}
+              <p>No publications found.</p>
             {{ end }}
+          </div>
+
+          <!-- RIGHT: Media + Updates -->
+          <div class="col-right">
+<!--            {{ with .Site.Data.media.media }}-->
+<!--              {{ if gt (len .) 0 }}-->
+<!--                <h2>Media Coverage</h2>-->
+<!--                <ul class="media-list">-->
+<!--                  {{ range first 8 . }}-->
+<!--                    <li>-->
+<!--                      <a href="{{ .url | safeURL }}" target="_blank" rel="noopener">-->
+<!--                        {{ with .outlet }}<strong>{{ . }}</strong>{{ end }}{{ if and .outlet .title }} — {{ end }}{{ .title }}-->
+<!--                      </a>-->
+<!--                      {{ with .date }}<span class="media-date"> ({{ . }})</span>{{ end }}-->
+<!--                    </li>-->
+<!--                  {{ end }}-->
+<!--                </ul>-->
+<!--              {{ end }}-->
+<!--            {{ end }}-->
+
+             <h1>Media Coverage</h1>
+            <div class="cards">
+              {{ range first 5 (where .Site.RegularPages "Section" "media") }}
+                <div class="card media-card">
+                  <p class="headline" style="margin:0 0 4px">“{{ .Title }}”</p>
+                    <p class="meta" style="margin:0">
+                      <em>{{ .Params.outlet }}</em>, {{ .Date.Format "January 2, 2006" }}.
+                      {{ with .Params.link }} <a href="{{ . }}" target="_blank" rel="noopener">[Read More]</a>{{ end }}
+                    </p>
+
+                </div>
+              {{ end }}
+            </div>
+
+
+
+            <h1>Updates / Posts</h1>
+            <div class="posts-list">
+              {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+                <div class="post">
+                  <div class="date">{{ .Date.Format "Jan. 2, 2006" }}</div>
+                  <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+
         </div>
 
         <div class="footer">

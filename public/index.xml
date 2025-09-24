@@ -6,14 +6,28 @@
     <description>Recent content on Shirley (Hailun) Zhang | 张海伦</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UW-Madison researchers expose how automation apps can spy—and how to detect it</title>
+      <link>http://localhost:1313/media/shortcut-college/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/media/shortcut-college/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Abusability of Automation Apps in Intimate Partner Violence</title>
       <link>http://localhost:1313/abusability-ipv/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/abusability-ipv/</guid>
       <description>&lt;p&gt;&lt;em&gt;Proceedings of the 2025 USENIX Security (To appear).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR –&lt;/strong&gt; We show how seemingly benign automation apps can be weaponized by abusers to surveil and harass intimate partners, and we design a large language model based detector to examine the malicious automation recipes.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Automation apps such as iOS Shortcuts and Android Tasker enable users to &amp;ldquo;program&amp;rdquo; new functionalities, also called &lt;em&gt;recipes&lt;/em&gt;, on their smartphones. For example, users can create recipes to set the phone to silent mode once they arrive at their office or save a note when an email is received from a particular sender. These automation apps provide convenience and can help improve productivity. However, these automation apps can also provide new avenues for abuse, particularly in the context of intimate partner violence (IPV). This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. We analyze four popular automation apps &amp;mdash; iOS Shortcuts, Samsung Modes &amp;amp; Routines, Tasker, and IFTTT  &amp;mdash; evaluating their capabilities to facilitate surveillance and harassment. Our study reveals that these tools can be exploited by abusers today to monitor, impersonate, overload, and control their victims. The current notification and logging mechanisms implemented in these automation apps are insufficient to warn the victim about the abuse or to help them identify the root cause and stop it. We therefore built a detection mechanism to identify potentially malicious Shortcuts recipes and tested it on 12,962 publicly available Shortcuts recipes. We found 1,014 recipes that can be used to surveil and harass others. We then discuss how users and platforms mitigate such abuse potential of automation apps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 26 Jun 2025 00:29:48 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
