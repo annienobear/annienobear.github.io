@@ -1,8 +1,19 @@
 publications:
+  - title: "Automatically Detecting Online Deceptive Patterns "
+    url: "https://wiscprivacy.com/deceptive-pattern/"
+    authors: ["Asmit Nayak", "Shirley Zhang*", "Yash Wani*", "Rishabh Khandelwal", "Kassem Fawaz" ]
+    venue: "Proceedings of the 2025 on ACM SIGSAC Conference on Computer and Communications Security})"
+    year: 2025
+    description: "We implement AutoBot, across three downstream applications targeting different web stakeholders: (1) a local browser extension providing users with real-time feedback, (2) a Lighthouse audit to inform developers of potential deceptive patterns on their sites, and (3) as a measurement tool designed for researchers and regulators. "
+    links:
+#      paper: "/abusability-ipv/"
+      project: "https://wiscprivacy.com/deceptive-pattern/"
+      paper:  "/pdfs/deceptive_patterns.pdf"
+
   - title: "Abusability of Automation Apps in Intimate Partner Violence"
     url: "https://wiscprivacy.com/publication/abusability-ipv/"
     authors: [ "Shirley Zhang", "Paul Chung", "Jacob Vervelde", "Nishant Korapati", "Rahul Chatterjee", "Kassem Fawaz" ]
-    venue: "in Proceedings of the 2025 USENIX Security (Accepted)"
+    venue: "in Proceedings of the 2025 USENIX Security"
     year: 2025
     description: "This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. "
     links:
