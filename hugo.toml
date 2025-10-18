@@ -6,8 +6,7 @@ title = 'Shirley (Hailun) Zhang | 张海伦'
   path = "github.com/mrmierzejewski/hugo-theme-console"
 
 [params]
-  author = 'Shirley Zhang'
-  author = 'Shirley Zhang*'
+  author = ['Shirley Zhang','Shirley Zhang*']
   description = 'A personal site'
 #  custom_css = ["css/custom.css"]
 

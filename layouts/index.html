@@ -156,7 +156,7 @@
                 </h3>
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
-                  {{ range $i, $a := .authors }}{{ if gt $i 0 }}, {{ end }}{{ if eq $a "Shirley Zhang" }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end }}{{ end }}
+                  {{ range $i, $a := .authors }}{{ if gt $i 0 }}, {{ end }}{{ if or (eq $a "Shirley Zhang") (eq $a "Shirley Zhang*") }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end }}{{ end }}
                 </div>
 
                 {{ if .venue }}<div class="venue" style="color:#666; font-size:.9em; margin:4px 0;">{{ .venue }}</div>{{ end }}
