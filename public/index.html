@@ -32,7 +32,34 @@
       .col-left { max-width: 900px; }
       @media (max-width: 700px) { .two-col { flex-direction: column; } }
     </style>
+<style>
+     
+    .container { max-width: 1800px; }
+    .two-col { display: flex !important; gap: 32px; align-items: flex-start; }
+    .col-left, .col-right { flex: 1 1 0; min-width: 0; }
+    .col-left { max-width: 900px; }
+    @media (max-width: 700px) { .two-col { flex-direction: column; } }
 
+     
+    .pub-title {
+        max-width: 75%;       
+        line-height: 1.25;    
+        margin-bottom: 6px;   
+    }
+
+.award-badge {
+    color: #FFD700;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.award-badge::before {
+    content: "🏆 ";
+    font-size: 1em;
+}
+
+</style>
 </head>
 <body class="terminal">
     <div class="container">
@@ -321,16 +348,21 @@
                     <a href="https://wiscprivacy.com/deceptive-pattern/" target="_blank" rel="noopener" title="Automatically Detecting Online Deceptive Patterns ">Automatically Detecting Online Deceptive Patterns </a>
                   
                 </h3>
+                  
+                      <div class="award-badge">
+                        Distinguished Paper Award - ACM CCS 2025
+                      </div>
+                    
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   Asmit Nayak, <strong>Shirley Zhang*</strong>, Yash Wani*, Rishabh Khandelwal, Kassem Fawaz
                 </div>
 
-                <div class="venue" style="color:#666; font-size:.9em; margin:4px 0;">Proceedings of the 2025 on ACM SIGSAC Conference on Computer and Communications Security})</div>
+                <div class="venue" style="color:#666; font-size:.9em; margin:4px 0;">Proceedings of the 2025 on ACM SIGSAC Conference on Computer and Communications Security)</div>
                 <div class="desc" style="margin:8px 0;">We implement AutoBot, across three downstream applications targeting different web stakeholders: (1) a local browser extension providing users with real-time feedback, (2) a Lighthouse audit to inform developers of potential deceptive patterns on their sites, and (3) as a measurement tool designed for researchers and regulators. </div>
 
                 
-                  <div class="link-badges" style="margin:6px 0;">
+                  <div class="link-badges" style="margin:18px 0;">
                     
                       <a href="/pdfs/deceptive_patterns.pdf" target="_blank" rel="noopener" class="badge">[PAPER]</a>
                     
@@ -350,6 +382,7 @@
                     <a href="https://wiscprivacy.com/publication/abusability-ipv/" target="_blank" rel="noopener" title="Abusability of Automation Apps in Intimate Partner Violence">Abusability of Automation Apps in Intimate Partner Violence</a>
                   
                 </h3>
+                  
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   <strong>Shirley Zhang</strong>, Paul Chung, Jacob Vervelde, Nishant Korapati, Rahul Chatterjee, Kassem Fawaz
@@ -359,7 +392,7 @@
                 <div class="desc" style="margin:8px 0;">This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. </div>
 
                 
-                  <div class="link-badges" style="margin:6px 0;">
+                  <div class="link-badges" style="margin:18px 0;">
                     
                       <a href="/pdfs/Automate_in_IPV.pdf" target="_blank" rel="noopener" class="badge">[PAPER]</a>
                     
@@ -383,6 +416,7 @@
                     <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/fare.13171" target="_blank" rel="noopener" title="A Qualitative Exploration of Parents and Their Children&#39;s Uses and Gratifications of ChatGPT">A Qualitative Exploration of Parents and Their Children&#39;s Uses and Gratifications of ChatGPT</a>
                   
                 </h3>
+                  
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   <strong>Shirley Zhang</strong>, Jennica Li, Bengisu Cagiltay, Heather Kirkorian, Bilge, Mutlu, Kassem Fawaz
@@ -392,7 +426,7 @@
                 <div class="desc" style="margin:8px 0;">This Emerging Ideas report explores families’ (parents and their children) uses and gratification for ChatGPT.</div>
 
                 
-                  <div class="link-badges" style="margin:6px 0;">
+                  <div class="link-badges" style="margin:18px 0;">
                     
                       <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/fare.13171" target="_blank" rel="noopener" class="badge">[PAPER]</a>
                     
@@ -414,6 +448,7 @@
                     <a href="https://dl.acm.org/doi/10.1145/3706598.3713256" target="_blank" rel="noopener" title="&#39;Impressively Scary&#39;: Exploring User Perceptions and Reactions to Unraveling Machine Learning Models in Social Media Applications">&#39;Impressively Scary&#39;: Exploring User Perceptions and Reactions to Unraveling Machine Learning Models in Social Media Applications</a>
                   
                 </h3>
+                  
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   Jack West, Bengisu Cagiltay, <strong>Shirley Zhang</strong>, Jingjie Li, Kassem Fawaz, Suman Banerjee
@@ -423,7 +458,7 @@
                 <div class="desc" style="margin:8px 0;">We conducted user studies (N=21) and found that participants were unaware to both what the models output and when the models were used in Instagram and TikTok, two major social media platforms. In response to being exposed to the models’ functionality, we observed long term behavior changes in 8 participants. Our analysis uncovers the challenges and opportunities in providing transparency for machine learning models that interact with local user data.</div>
 
                 
-                  <div class="link-badges" style="margin:6px 0;">
+                  <div class="link-badges" style="margin:18px 0;">
                     
                       <a href="https://dl.acm.org/doi/10.1145/3706598.3713256" target="_blank" rel="noopener" class="badge">[PAPER]</a>
                     
@@ -445,6 +480,7 @@
                     <a href="https://chi-staig.github.io/papers/submission13.pdf" target="_blank" rel="noopener" title="Is Self-Governance Governance?: Evaluating the Consistency of Self-Governance Practices on AI in Social Media Applications">Is Self-Governance Governance?: Evaluating the Consistency of Self-Governance Practices on AI in Social Media Applications</a>
                   
                 </h3>
+                  
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   Jack West, <strong>Shirley Zhang</strong>, Kassem Fawaz, Suman Banerjee
@@ -454,7 +490,7 @@
                 <div class="desc" style="margin:8px 0;">In this work, we compare the currently deployed models for both Instagram and TikTok to their public statements about internal AI governance practices to see if these models live up to their reported standards. We found that Instagram’s model may exhibit undesirable biases in concepts that their other internal models (eg, DINOv2) may lack. </div>
 
                 
-                  <div class="link-badges" style="margin:6px 0;">
+                  <div class="link-badges" style="margin:18px 0;">
                     
                       <a href="https://chi-staig.github.io/papers/submission13.pdf" target="_blank" rel="noopener" class="badge">[PAPER]</a>
                     
@@ -474,6 +510,7 @@
                     Exploring Differences Between Parents&#39; Perceptions and Mediation of ChatGPT and Social Media. [Poster Presentation]
                   
                 </h3>
+                  
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   Jennica Li, Bengisu Cagiltay, <strong>Shirley Zhang</strong>, Dakota Sullivan, Heather Kirkorian, Bilge, Mutlu, Kassem Fawaz

@@ -35,7 +35,34 @@
       .col-left { max-width: 900px; }
       @media (max-width: 700px) { .two-col { flex-direction: column; } }
     </style>
+<style>
+    /* Your existing styles */
+    .container { max-width: 1800px; }
+    .two-col { display: flex !important; gap: 32px; align-items: flex-start; }
+    .col-left, .col-right { flex: 1 1 0; min-width: 0; }
+    .col-left { max-width: 900px; }
+    @media (max-width: 700px) { .two-col { flex-direction: column; } }
 
+    /* NEW: Compact title area (reduce blue space) */
+    .pub-title {
+        max-width: 75%;      /* Makes title wrap sooner, creating shorter lines */
+        line-height: 1.25;   /* Tighter line spacing for wrapped text */
+        margin-bottom: 6px;  /* Reduce space below title */
+    }
+
+.award-badge {
+    color: #FFD700;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.award-badge::before {
+    content: "🏆 ";
+    font-size: 1em;
+}
+
+</style>
 </head>
 <body class="terminal">
     <div class="container">
@@ -154,6 +181,11 @@
                     {{ .title }}
                   {{ end }}
                 </h3>
+                  {{ if .award }}
+                      <div class="award-badge">
+                        {{ .award }}
+                      </div>
+                    {{ end }}
 
                 <div class="authors" style="font-style: italic; color:#888; margin:4px 0;">
                   {{ range $i, $a := .authors }}{{ if gt $i 0 }}, {{ end }}{{ if or (eq $a "Shirley Zhang") (eq $a "Shirley Zhang*") }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end }}{{ end }}
@@ -163,7 +195,7 @@
                 {{ if .description }}<div class="desc" style="margin:8px 0;">{{ .description }}</div>{{ end }}
 
                 {{ if .links }}
-                  <div class="link-badges" style="margin:6px 0;">
+                  <div class="link-badges" style="margin:18px 0;">
                     {{ range $type, $url := .links }}
                       <a href="{{ $url | safeURL }}" target="_blank" rel="noopener" class="badge">[{{ upper $type }}]</a>
                     {{ end }}
