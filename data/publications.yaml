@@ -1,7 +1,7 @@
 publications:
   - title: "Automatically Detecting Online Deceptive Patterns "
     url: "https://wiscprivacy.com/deceptive-pattern/"
-    authors: ["Asmit Nayak", "Shirley Zhang*", "Yash Wani*", "Rishabh Khandelwal", "Kassem Fawaz" ]
+    authors: ["Asmit Nayak", "Yash Wani*", "Shirley Zhang*", "Rishabh Khandelwal", "Kassem Fawaz" ]
     venue: "Proceedings of the 2025 on ACM SIGSAC Conference on Computer and Communications Security)"
     year: 2025
     award: "Distinguished Paper Award - ACM CCS 2025"
