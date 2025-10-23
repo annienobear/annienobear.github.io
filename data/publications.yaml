@@ -8,7 +8,7 @@ publications:
     description: "We implement AutoBot, across three downstream applications targeting different web stakeholders: (1) a local browser extension providing users with real-time feedback, (2) a Lighthouse audit to inform developers of potential deceptive patterns on their sites, and (3) as a measurement tool designed for researchers and regulators. "
     links:
       project: "https://wiscprivacy.com/deceptive-pattern/"
-      paper:  "/pdfs/deceptive_patterns.pdf"
+      paper:  "/pdfs/2411.07441v3.pdf"
 
   - title: "Abusability of Automation Apps in Intimate Partner Violence"
     url: "https://wiscprivacy.com/publication/abusability-ipv/"
