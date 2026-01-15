@@ -1,4 +1,10 @@
 publications:
+  - title: "Benchmarking LLM Privacy Recognition for Social Robot Decision Making"
+    url: "https://arxiv.org/abs/2507.16124"
+    venue: "ArXiv"
+    authors: [ "Dakota Sullivan*", "Shirley Zhang*", "Jennica Li", "Heather Kirkorian", "Bilge Mutlu", "Kassem Fawaz" ]
+    year: 2025
+    description: " In this work, we present a set of privacy-relevant scenarios developed using the Contextual Integrity (CI) framework. We first surveyed users' privacy preferences regarding in-home robot behaviors and then examined how their privacy orientations affected their choices of these behaviors (N = 450). We then provided the same set of scenarios and questions to state-of-the-art LLMs (N = 10) and found that the agreement between humans and LLMs was generally low. To further investigate the capabilities of LLMs as potential privacy controllers, we implemented four additional prompting strategies and compared their results. We discuss the performance of the evaluated models as well as the implications and potential of AI privacy awareness in human-robot interaction."
   - title: "Automatically Detecting Online Deceptive Patterns "
     url: "https://wiscprivacy.com/deceptive-patterns/"
     authors: ["Asmit Nayak", "Yash Wani*", "Shirley Zhang*", "Rishabh Khandelwal", "Kassem Fawaz" ]
@@ -23,7 +29,7 @@ publications:
 
 
   - title: "A Qualitative Exploration of Parents and Their Children's Uses and Gratifications of ChatGPT"
-    authors: ["Shirley Zhang", "Jennica Li", "Bengisu Cagiltay", "Heather Kirkorian", "Bilge, Mutlu", "Kassem Fawaz"]
+    authors: ["Shirley Zhang", "Jennica Li", "Bengisu Cagiltay", "Heather Kirkorian", "Bilge Mutlu", "Kassem Fawaz"]
     venue: "Family Relations."
     year: 2025
     description: "This Emerging Ideas report explores families’ (parents and their children) uses and gratification for ChatGPT."
