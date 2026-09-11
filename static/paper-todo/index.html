@@ -141,8 +141,9 @@ footer.foot{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);fo
       var done=im[1]!==' ', sev=im[2], rest=im[3].trim(), resolved=null, note=null, isNew=false;
       var rm=/^✅ \*fixed in ([^*]+)\*(?: \((.*?)\))? —\s*/.exec(rest); if(rm){ resolved=rm[1]; note=rm[2]||null; rest=rest.slice(rm[0].length); }
       if(rest.indexOf('🆕')===0){ isNew=true; rest=rest.slice(2).trim(); }
+      var idm=/^([A-F]\d+)\s*·\s*/.exec(rest), id=idm?idm[1]:cur.key+(cur.items.length+1); if(idm) rest=rest.slice(idm[0].length);
       var lead='', text=rest, k=rest.indexOf(' — '); if(k>-1 && k<=150){ lead=rest.slice(0,k).trim(); text=rest.slice(k+3).trim(); }
-      cur.items.push({id:cur.key+(cur.items.length+1),sev:sev,done:done,lead:lead,text:text,resolved:resolved,note:note,isNew:isNew,line:idx,raw:ln});
+      cur.items.push({id:id,sev:sev,done:done,lead:lead,text:text,resolved:resolved,note:note,isNew:isNew,line:idx,raw:ln});
     });
     return {title:title,summary:summary,status:status,sections:sections};
   }
