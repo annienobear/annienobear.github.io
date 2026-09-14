@@ -31,7 +31,7 @@ Automation apps such as iOS Shortcuts and Android Tasker enable users to "progra
 
 | Artifact          | Link / Status |
 | ----------------- |---------------|
-| **Paper (PDF)**   | *[link](/pdfs/sec25cycle2-final113 (3).pdf)*    |
+| **Paper (PDF)**   | [Download PDF](/pdfs/abusability-ipv-usenix-sec25.pdf)    |
 | **Code (GitHub)** | *coming soon* |
 | **Dataset**       | *coming soon* |
 | **Slides**        | *coming soon* |
