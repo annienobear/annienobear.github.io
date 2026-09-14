@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on Shirley (Hailun) Zhang | 张海伦</title>
+    <link>http://localhost:1313/media/</link>
+    <description>Recent content in Media on Shirley (Hailun) Zhang | 张海伦</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detecting and Preventing Digital Abuse</title>
+      <link>http://localhost:1313/media/shortcut-onwisc/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/media/shortcut-onwisc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UW-Madison researchers find automation apps can enable dating abuse</title>
+      <link>http://localhost:1313/media/shortcut-wkow/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/media/shortcut-wkow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UW-Madison researchers expose how automation apps can spy—and how to detect it</title>
+      <link>http://localhost:1313/media/shortcut-college/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/media/shortcut-college/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
