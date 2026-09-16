@@ -7,7 +7,7 @@ title = 'Shirley (Hailun) Zhang | 张海伦'
 
 [params]
   author = ['Shirley Zhang','Shirley Zhang*']
-  description = 'Shirley (Hailun) Zhang is a Computer Science PhD student at UW-Madison working on usable security and privacy, including technology-facilitated intimate partner abuse, deceptive design, and privacy in AI systems.'
+  description = 'Shirley (Hailun) Zhang — Computer Science PhD student at UW-Madison working on usable security and privacy in multi-user settings.'
 #  custom_css = ["css/custom.css"]
 
 [menu]
