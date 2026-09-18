@@ -67,6 +67,19 @@ code, pre, kbd, samp {
                "DejaVu Sans Mono", monospace;
 }
 
+/* terminal.css styles `.terminal strong` with its own font-size,
+   font-style, font-family and color, so bolding an author name
+   also made it monospace, upright, larger and darker than the
+   co-authors around it. Bold should only ever change weight. */
+.terminal strong,
+.terminal b {
+  font-size: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 700;
+}
+
 h1, h2, h3 { line-height: 1.25; letter-spacing: -0.01em; }
 h1 { font-size: 1.6rem;  margin: 2.3rem 0 0.9rem; }
 h2 { font-size: 1.15rem; margin: 2rem 0 0.7rem; }
@@ -111,6 +124,13 @@ a  { text-decoration-thickness: 1px; text-underline-offset: 2px; }
 }
 .col-left  { flex: 1.4 1 0; min-width: 0; }
 .col-right { flex: 1 1 0;   min-width: 0; }
+
+/* The intro row uses the same grid as the content below it, so the
+   page has one column edge all the way down instead of a capped
+   paragraph with dead space beside it. */
+.two-col.intro { margin-top: 0; margin-bottom: 2.4rem; }
+.two-col.intro h1 { margin-top: 2.3rem; }
+.two-col.intro p  { margin-bottom: 0; }
 
 @media (max-width: 860px) {
   .two-col { flex-direction: column; gap: 30px; }

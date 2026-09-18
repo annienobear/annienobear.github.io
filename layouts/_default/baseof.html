@@ -1,0 +1,65 @@
+{{/*
+  Override of hugo-theme-console's _default/baseof.html.
+  Three changes from the theme original:
+    1. <title> is "Page | Site" instead of the site title with the
+       URL path glued on ("Shirley Zhang | 张海伦/about/").
+    2. The nav is built from .Site.Menus.main, which is what
+       hugo.toml actually defines. The theme reads
+       .Site.Params.navlinks, so every inner page had no nav links.
+    3. Loads /css/custom.css after the theme stylesheets.
+  Everything else is the theme file unchanged.
+*/}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="{{ "hugo-theme-console/css/terminal-0.7.4.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "hugo-theme-console/css/animate-4.1.1.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "hugo-theme-console/css/console.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+
+    {{- partial "favicon.html" . -}}
+    {{ with .OutputFormats.Get "RSS" }}
+      {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
+    {{ end }}
+    {{- partial "opengraph.html" . -}}
+    {{- partial "twitter_cards.html" . -}}
+    {{ template "_internal/google_analytics.html" . }}
+
+    {{- partial "header.html" . -}}
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~#
+            </div>
+          </header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                {{ range $index, $element := .Site.Menus.main }}
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" class="menu-item" href="{{ .URL | absURL }}">
+                    <span property="name">{{ .Name }}</span></a>
+                    <meta property="position" content="{{ add $index 1 }}" />
+                </li>
+                {{ end }}
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container {{ .Site.Params.animateStyle }}">
+        {{ block "main" . }}
+        {{ end }}
+        {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>
