@@ -28,55 +28,7 @@
 
     <meta name="twitter:title" content="{{ .Site.Title }}"/>
     <meta name="twitter:description" content="{{ .Site.Params.description | default "A personal site" }}"/>
-    <style>
-        .container { max-width: 1800px; }
-      .two-col { display: flex !important; gap: 32px; align-items: flex-start; }
-      .col-left, .col-right { flex: 1 1 0; min-width: 0; }
-      .col-left { max-width: 900px; }
-      @media (max-width: 700px) { .two-col { flex-direction: column; } }
-    </style>
-<style>
-    /* Your existing styles */
-    .container { max-width: 1800px; }
-    .two-col { display: flex !important; gap: 32px; align-items: flex-start; }
-    .col-left, .col-right { flex: 1 1 0; min-width: 0; }
-    .col-left { max-width: 900px; }
-    @media (max-width: 700px) { .two-col { flex-direction: column; } }
-
-    /* NEW: Compact title area (reduce blue space) */
-    .pub-title {
-        max-width: 75%;      /* Makes title wrap sooner, creating shorter lines */
-        line-height: 1.25;   /* Tighter line spacing for wrapped text */
-        margin-bottom: 6px;  /* Reduce space below title */
-    }
-
-.award-badge {
-    color: #FFD700;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 6px 0;
-}
-
-.award-badge::before {
-    content: "🏆 ";
-    font-size: 1em;
-}
-
-/* Contact / profile links under the About blurb */
-.contact-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 18px;
-    margin: 12px 0 0;
-    padding: 0;
-    list-style: none;
-}
-.contact-links a {
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-</style>
+    <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
 </head>
 <body class="terminal">
     <div class="container">

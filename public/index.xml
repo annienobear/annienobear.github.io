@@ -6,8 +6,15 @@
     <description>Recent content on Shirley (Hailun) Zhang | 张海伦</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rahul and I gave a talk at the ATAP Great Lakes training event in Chicago!</title>
+      <link>http://localhost:1313/posts/talk2/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/talk2/</guid>
+      <description>&lt;p&gt;Rahul and I spoke at the ATAP Great Lakes Chapter&amp;rsquo;s Fifth Annual Training Event, held at the Willis Tower in Chicago. Our session was &amp;ldquo;When Technology Becomes a Tool of Abuse: Understanding Technology-Facilitated Intimate Partner Abuse&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;It was great bringing our IPV work to the threat assessment community!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I give a talk at the University of Cambridge security seminar!</title>
       <link>http://localhost:1313/posts/talk1/</link>
@@ -49,6 +56,13 @@
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/abusability-ipv/</guid>
       <description>&lt;p&gt;&lt;em&gt;Proceedings of the 2025 USENIX Security (To appear).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR –&lt;/strong&gt; We show how seemingly benign automation apps can be weaponized by abusers to surveil and harass intimate partners, and we design a large language model based detector to examine the malicious automation recipes.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Automation apps such as iOS Shortcuts and Android Tasker enable users to &amp;ldquo;program&amp;rdquo; new functionalities, also called &lt;em&gt;recipes&lt;/em&gt;, on their smartphones. For example, users can create recipes to set the phone to silent mode once they arrive at their office or save a note when an email is received from a particular sender. These automation apps provide convenience and can help improve productivity. However, these automation apps can also provide new avenues for abuse, particularly in the context of intimate partner violence (IPV). This paper systematically explores the potential of automation apps to be used for surveillance and harassment in IPV scenarios. We analyze four popular automation apps &amp;mdash; iOS Shortcuts, Samsung Modes &amp;amp; Routines, Tasker, and IFTTT  &amp;mdash; evaluating their capabilities to facilitate surveillance and harassment. Our study reveals that these tools can be exploited by abusers today to monitor, impersonate, overload, and control their victims. The current notification and logging mechanisms implemented in these automation apps are insufficient to warn the victim about the abuse or to help them identify the root cause and stop it. We therefore built a detection mechanism to identify potentially malicious Shortcuts recipes and tested it on 12,962 publicly available Shortcuts recipes. We found 1,014 recipes that can be used to surveil and harass others. We then discuss how users and platforms mitigate such abuse potential of automation apps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 26 Jun 2025 00:29:48 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a Computer Science Ph.D. student at the University of Wisconsin–Madison, working with Prof. &lt;a href=&#34;https://kassemfawaz.com/&#34;&gt;Kassem Fawaz&lt;/a&gt; in the &lt;a href=&#34;https://wiscprivacy.com/&#34;&gt;Wisconsin Privacy and Security Group&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;My work sits between technical HCI, privacy, and AI-driven robotics. I&amp;rsquo;m interested in systems that more than one person uses, where a single set of privacy settings almost never fits everyone in the room. I lean on interviews and user studies about as much as on building things.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-work-on&#34;&gt;What I work on&lt;/h2&gt;&#xA;&lt;p&gt;My dissertation asks one question: can GenAI understand a household&amp;rsquo;s privacy norms well enough to make decisions for the people living there? And if it can&amp;rsquo;t yet, what is missing?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,20 +6,27 @@
     <description>Recent content in Posts on Shirley (Hailun) Zhang | 张海伦</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rahul and I gave a talk at the ATAP Great Lakes training event in Chicago!</title>
+      <link>http://localhost:1313/posts/talk2/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/talk2/</guid>
+      <description>&lt;p&gt;Rahul and I spoke at the ATAP Great Lakes Chapter&amp;rsquo;s Fifth Annual Training Event, held at the Willis Tower in Chicago. Our session was &amp;ldquo;When Technology Becomes a Tool of Abuse: Understanding Technology-Facilitated Intimate Partner Abuse&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;It was great bringing our IPV work to the threat assessment community!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>I give a talk at the University of Cambridge security seminar!</title>
-      <link>http://localhost:1313/posts/camb-talk/</link>
+      <link>http://localhost:1313/posts/talk1/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/camb-talk/</guid>
+      <guid>http://localhost:1313/posts/talk1/</guid>
       <description>&lt;p&gt;It was great meeting people there and share our experiences working on IPV preventing. Special thanks to Prof. Alice Hutchings for inviting me and Alex for organizing the talk.&lt;/p&gt;&#xA;&lt;p&gt;Here is the recoding of the talk if you are interested: &lt;a href=&#34;https://www.cl.cam.ac.uk/research/security/seminars/archive/video/2026-02-10-t243715.html&#34;&gt;https://www.cl.cam.ac.uk/research/security/seminars/archive/video/2026-02-10-t243715.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>We got the CCS 2025 Distinguished Paper Award!!!</title>
-      <link>http://localhost:1313/posts/distinguish/</link>
+      <link>http://localhost:1313/posts/award1/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/distinguish/</guid>
+      <guid>http://localhost:1313/posts/award1/</guid>
       <description>&lt;p&gt;Still cannot believe this happened&amp;hellip;! Great job team!!!&lt;/p&gt;</description>
     </item>
   </channel>
